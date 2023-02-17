@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrollbar</title>
+    <style>
+      .scrollbar {
+        width: 300px;
+        height: 300px;
+        margin: 10px auto 0px auto;
+        border: 1px solid;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        overflow: auto;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      }
+
+      .scrollbar p{
+        word-break:break-all
+      }
+
+      .scrollbar::-webkit-scrollbar{
+        width: 16px;
+        background-color: black;
+      }
+
+      .scrollbar::-webkit-scrollbar-track{
+        background-color:white;
+      }
+
+      .scrollbar.scrollbar::-webkit-scrollbar-thumb{
+        background-color:blue;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        outline-style:solid;
+        outline-width: 3px;
+        outline-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scrollbar">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quia,
+        aliquid repellendus temporibus dolores excepturi aspernatur ipsum! Ea
+        totam pariatur corrupti, at minus earum dolor, provident assumenda
+        laborum non reprehenderit? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Nihil ducimus excepturi quidem aliquid voluptate
+        doloribus eius soluta molestias dolores! Commodi itaque expedita nihil
+        quos doloribus perspiciatis suscipit laudantium, ipsum ea sint labore
+        quibusdam consectetur vel optio! Quibusdam itaque, fugit necessitatibus
+        voluptatem magnam nesciunt nam facilis repudiandae dolores dolorum
+        mollitia quod odit provident quasi consequatur natus dolore illum
+        consequuntur? Dignissimos sapiente quod minima, ab ipsam dolor labore,
+        quas nisi dolorem mollitia laboriosam cupiditate eius. Sint nam
+        repudiandae porro. Qui cupiditate ratione, odio iste quia voluptates.
+        Expedita facilis quam fugit, ratione unde inventore fugiat doloremque
+        numquam sunt ipsa, eum ipsam dolor dignissimos.
+      </p>
+    </div>
+  </body>
+</html>
